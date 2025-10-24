@@ -3,7 +3,7 @@
     "access-log": null,
     "execution-log": {
       "is-enabled": null,
-      "log-level": "INFO"
+      "log-level": "WARN"
     }
   },
   "request-policies": {
@@ -29,9 +29,9 @@
       "verify-claims": [
         {
           "is-required": false,
-          "key": "hhhhhmlllll",
+          "key": "hhhh",
           "values": [
-            "fdddssmllllll"
+            "fddds"
           ]
         }
       ]
@@ -42,7 +42,7 @@
       ],
       "allowed-methods": [
         "GET",
-        "PATCH"
+        "POST"
       ],
       "allowed-origins": [
         "*"
@@ -82,11 +82,11 @@
         "access-log": null,
         "execution-log": {
           "is-enabled": null,
-          "log-level": "INFO"
+          "log-level": "WARN"
         }
       },
       "methods": [
-        "GET",
+        "POST",
         "PATCH"
       ],
       "path": "/fulltest123",
@@ -148,8 +148,8 @@
           "rename-query-parameters": {
             "items": [
               {
-                "-from": "ss",
-                "to": "tt"
+                "-from": "ssss",
+                "to": "tttt"
               }
             ]
           },
